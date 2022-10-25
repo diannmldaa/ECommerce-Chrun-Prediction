@@ -1,7 +1,7 @@
 # ECommerce-Chrun-Prediction
 
-Final Project-Rakamin Academy <br>
-Kelompok 2: Avengers Team
+Final Project Data Science Bootcamp Rakamin Academy Batch 22 <br>
+Group 2: Avengers Team
 
 The goal of this project is to analyze churn customer behavior and minimize the customer churn rate. The results show that tenure has the biggest impact on customer churn. Using F1-Score as performance metrics, the model can predict churn customer rate reduced, target <10%. 
 
