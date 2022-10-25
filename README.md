@@ -1,40 +1,38 @@
 # ECommerce-Chrun-Prediction
 
-Final Project-Rakamin Academy 
-Kelempok 2: Avengers Team
+Final Project-Rakamin Academy <br>
+Kelompok 2: Avengers Team
 
-The goal of this project is to analyze churn customer behavior and minimize the customer churn rate. The
-results show that tenure has the biggest impact on customer churn. Using F1-Score as performance
-metrics, the model can predict churn customer rate reduced, target <10%. 
+The goal of this project is to analyze churn customer behavior and minimize the customer churn rate. The results show that tenure has the biggest impact on customer churn. Using F1-Score as performance metrics, the model can predict churn customer rate reduced, target <10%. 
 
 ### 1. Problem Statement <br>
 
-Avengers Team Menggunakan dataset Churn Prediction yang merupakan data yang dimiliki oleh perusahaan yang bergerak di bidang E-commerce. Data mencakup angka customer yang berhenti berlangganan (customer churn), lama berlangganan, kegiatan order, penggunaan coupon dan cashback, complain, dan lain-lain.<br>
+Avengers Team uses the Churn Prediction dataset, which is data owned by companies engaged in E-commerce. The data includes the number of customers who unsubscribe (customer churn), duration of subscription, order activities, use of coupons and cashback, complaints, and others.<br>
 
-Customer churn merupakan hal yang dihindari oleh perusahaan karena akan berakibat pada pengurangan pendapatan perusahaan. Apabila sudah terjadi churn, maka perusahaan harus mencari customer baru yang berdampak pada peningkatan operational cost (3-5 kali lebih besar daripada biaya operational untuk mempertahankan pelanggan).<br>
+Customer churn is something that companies avoid because it will result in a reduction in company revenue. If churn has occurred, then the company must find new customers which have an impact on increasing operational costs (3-5 times greater than operational costs for retaining customers).<br>
 
-Salah satu cara mempertahankan customer yang sudah ada dapat disebut sebagai customer retention, adalah kegiatan dan tindakan yang dilakukan perusahaan untuk mengurangi customer defection. Keuntungannya dapat menghemat bujet dibandingkan mencari customer baru, karena perusahaan tak perlu lagi menarik, mengedukasi dan melakukan persuasi kembali. <br>
+One way to retain existing customers can be referred to as customer retention, is the activities and actions taken by the company to reduce customer defection. The advantage is that it can save the budget compared to finding new customers, because the company no longer needs to attract, educate and persuade again. <br>
 
-Dari dataset, diperoleh hasil perhitungan churn rate / conversion atau perbandingan antara customer yang churn dan total customer sebesar 16,84%.  Berdasarkan Lincoln Murphy, tingkat churn yang dapat diterima berada dalam kisaran 5 - 7% pertahun, tergantung pada apakah Anda mengukur pelanggan atau pendapatan. Semakin besar bisnis yang kita targetkan maka churn rate harus semakin kecil agar growth rate perusahaan semakin tinggi. Diharapkan dengan dataset ini, tim Avengers sebagai data scientist dapat membuat model prediktif untuk Customer Churn berdasrakan  perilaku customer <br?
+From the dataset, the results of the calculation of churn rate / conversion or the comparison between churn customers and total customers are 16.84%. According to Lincoln Murphy, acceptable churn rates are in the range of 5 - 7% per year, depending on whether you're measuring customers or revenue. The bigger the business we are targeting, the smaller the churn rate so that the company's growth rate will be higher. It is hoped that with this dataset, the Avengers team as data scientists can create predictive models for Customer Churn based on customer behavior. <br?
 
 
 ### 2. Role <br>
 
-Sebagai tim data scientist dalam suatu perusahaan E-Commerce terkemuka, kami Avengers team bertanggung jawab untuk  memberikan rekomendasi bisnis berdasarkan data yang tersedia guna meningkatkan performa dari perusahaan tersebut.<br>
+As a team of data scientists in a leading E-Commerce company, our Avengers team is responsible for providing business recommendations based on available data to improve the performance of the company.<br>
 
-Avengers Team sebagai tim data scientist pada final project kali ini berperan dalam membuat model prediktif untuk mengklasifikasikan customer yang akan melakukan churn dan tidak, berdasarkan pola perilaku konsumen. <br>
+Avengers Team as a data scientist team in this final project plays a role in creating predictive models to classify customers who will churn and not, based on consumer behavior patterns. <br>
 
-Berdasarkan kinerja model, akan dipilih model yang akan melampirkan probabilitas ke churn atau tidaknya, untuk memudahkan layanan pelanggan dalam upaya mereka mencegah churn. Pengetahuan ini akan membantu perusahaan dalam mengambil tindakan yang tepat untuk memenangkan customer yang masih loyal. Peran selanjutnya adalah melatih, menyempurnakan, dan menguji banyak model hingga kita menemukan model yang akan membuat prediksi paling akurat. 
+Based on the performance of the model, a model will be selected which will attach the probability to churn or not, to facilitate customer service in their efforts to prevent churn. This knowledge will help the company in taking the right action to win over loyal customers. The next role is to train, refine, and test multiple models until we find the model that will make the most accurate predictions. <br>
 
 ### 3. Goal<br>
 
-Prediksi customer churn berdasarkan pola perilaku customer, seperti complain dan tingkat kepuasan customer. Sehingga kita dapat menurunkan angka churn dan fokus meningkatkan retensi pelanggan (misalnya dengan memberikan program loyalitas pelanggan) sehingga cost operation dapat diminimalisir. Karena cost yang dikeluarkan untuk mendapatkan customer baru akan lebih tinggi dibandingkan mempertahankan pelanggan yang sudah ada. <br>
-- Tingkat Churn customer berkurang, targetnya <10% <br>
-- Tingkat kepuasan customer naik >3 <br>
+Prediction of customer churn based on customer behavior patterns, such as complaints and customer satisfaction levels. So that we can reduce the churn rate and focus on increasing customer retention (eg by providing a customer loyalty program) so that operating costs can be minimized. Because the costs incurred to get new customers will be higher than retaining existing customers. <br>
+- Churn customer rate is reduced, target <10% <br>
+- Customer satisfaction level increased >3 <br>
 
 ### 4. Objective<br>
 
-Membuat model machine learning untuk memprediksi customer yang akan churn.<br>
+Create a machine learning model to predict which customers will churn.<br>
 
 ### 5. Business Metrics<br>
 1. Churn Rate - (Main)<br>
