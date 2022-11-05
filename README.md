@@ -1,4 +1,4 @@
-# ECommerce-Chrun-Prediction
+# ECommerce-Churn-Prediction
 
 Final Project Data Science Bootcamp Rakamin Academy Batch 22 <br>
 Group 2: Avengers Team
